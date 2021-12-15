@@ -1,4 +1,3 @@
-
 # Certificate chain
 QUESTION: How to validate all certificates in a certificate chain.
 
@@ -9,5 +8,6 @@ QUESTION: How to validate all certificates in a certificate chain.
 ## **What is a [Certificate Chain](https://www.appviewx.com/education-center/what-is-a-certificate-chain/)?**
 ### [Links in the Certificate Chain](https://www.appviewx.com/education-center/links-in-the-certificate-chain/)
 ![Image](https://github.com/PrimozRatej/CertificateChain/blob/b66bf8ba9673d8fdf4065f0011763ad3bb0665d4/PKI%20Infrastructure.PNG)
-
-
+## [SSL Pinning](https://medium.com/flawless-app-stories/ssl-pinning-254fa8ca2109)
+## [SSL Pinning in Flutter Apps](https://medium.com/surfstudio/ssl-pinning-in-flutter-apps-254e01e57965)
+- The SSL certificate chain can be traced from a private SSL certificate through intermediate certificates to the root certificate of a trusted certificate authority.
