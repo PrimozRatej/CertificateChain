@@ -8,6 +8,6 @@ QUESTION: How to validate all certificates in a certificate chain.
 
 ## **What is a [Certificate Chain](https://www.appviewx.com/education-center/what-is-a-certificate-chain/)?**
 ### [Links in the Certificate Chain](https://www.appviewx.com/education-center/links-in-the-certificate-chain/)
-![Image](../blob/master/PKI Infrastructure.PNG?raw=true)
+![Image](https://github.com/PrimozRatej/CertificateChain/blob/b66bf8ba9673d8fdf4065f0011763ad3bb0665d4/PKI%20Infrastructure.PNG)
 
 
