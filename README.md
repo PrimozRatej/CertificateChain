@@ -1,3 +1,4 @@
+
 # Certificate chain
 QUESTION: How to validate all certificates in a certificate chain.
 
@@ -17,3 +18,6 @@ root Certificate Authorities(CAs)
  
  ## Certificate chain for *solve-x.app
 ![image](https://github.com/PrimozRatej/CertificateChain/blob/afdab263149ec220c0ab2bcebca55c23de334195/Certificat_chain_in_browser.PNG)
+[Apache: Validate SSL chain of trust to prevent MITM-attacks?](https://serverfault.com/questions/915563/apache-validate-ssl-chain-of-trust-to-prevent-mitm-attacks)
+
+[Mobile Security via Flutter — SSL Pinning](https://medium.com/kbtg-life/mobile-security-via-flutter-ep-1-ssl-pinning-c57f18b711f6)
