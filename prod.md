@@ -1,1 +1,1 @@
-SSL Cert on prod *logatec.si
+# SSL Cert on prod *logatec.si
