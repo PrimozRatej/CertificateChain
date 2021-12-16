@@ -16,4 +16,4 @@ root Certificate Authorities(CAs)
  Intermediate CAs.
  
  ## Certificate chain for Facebook
-![image](https://github.com/PrimozRatej/CertificateChain/blob/9817fa6779f25fb3b237e2d10ee3fbbcf364672d/Certificat_chain_in_browser.PNG)
+![image](https://github.com/PrimozRatej/CertificateChain/blob/afdab263149ec220c0ab2bcebca55c23de334195/Certificat_chain_in_browser.PNG)
