@@ -14,3 +14,5 @@ QUESTION: How to validate all certificates in a certificate chain.
 
 root Certificate Authorities(CAs)
  Intermediate CAs.
+ 
+![image](https://github.com/PrimozRatej/CertificateChain/blob/9817fa6779f25fb3b237e2d10ee3fbbcf364672d/Certificat_chain_in_browser.PNG)
