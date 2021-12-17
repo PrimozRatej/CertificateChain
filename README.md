@@ -46,7 +46,7 @@ Because the app allows a connection to the api with a self sign cert.
 		- Check Manual proxy config
 		- Host name 127.0.0.1, Port 8080
 		- Apply settings
-![enter image description here](https://www.howtogeek.com/wp-content/uploads/2017/02/img_589cc143a0d61.png?trim=1,1&bg-color=000&pad=1,1)
+![emulator proxy setup](https://github.com/PrimozRatej/CertificateChain/blob/1a6193686a7d14271f13b5c09a22a34609c0479f/emulator_proxy_setup.PNG)
 
 	3. Restart the emulator and run the app.
 **The system reports an erro**r: ```CERTIFICATE_VERIFY_FAILED: self signed certificate in certificate chain```.   
