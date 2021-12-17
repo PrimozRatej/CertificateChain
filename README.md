@@ -81,9 +81,10 @@ App is using ```SecurityContext.defaultContext```.
 - Put a proxy between mobile app and api
 - Proxy will have self signed certificate
 	
-**Viris_thesis**:If I run the application via a proxy, I should get login information on the login page.
+**Viris_thesis**: If I run the application via a proxy, I should get login information on the login page.
 Because the app allows a connection to the api with a self sign cert.
-**My_thesis**:   According to my research HttpClient after default do not allow connection to self sign certificate so an error should occur.
+
+**My_thesis**: According to my research HttpClient after default do not allow connection to self sign certificate so an error should occur.
 ### 5. Proxy
 #### Set up a Proxy
 	Using Burp suite community
