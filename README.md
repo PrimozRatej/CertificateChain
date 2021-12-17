@@ -80,4 +80,5 @@ class DevHttpOverrides extends HttpOverrides {
   }  
 }
 ```
-
+I can now read all the traffic from app.
+![Successfully intercepted traffic](https://github.com/PrimozRatej/CertificateChain/blob/b38bfb40861b4fec88bb7a3a189ce4e9eeebcdd6/captured_traffic_badCertificateCallback.PNG)
