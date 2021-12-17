@@ -50,7 +50,7 @@ Because the app allows a connection to the api with a self sign cert.
 
 	3. Restart the emulator and run the app.
 **The system reports an erro**r: ```CERTIFICATE_VERIFY_FAILED: self signed certificate in certificate chain```.   
-Based on the research, I would refuse viris_thesis but one big but refuse thesis from Viris when it comes to pen testing.I do not dare because I am not a pen tester.
+Based on the research, I would refuse viris_thesis but one big but refuse thesis from Viris when it comes to pen testing. I do not dare because I am not a pen tester.
 			
   
 	4. Why did Viris successfully intercept packets? 
