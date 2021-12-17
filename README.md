@@ -35,7 +35,7 @@ App is using ```SecurityContext.defaultContext```.
 Because the app allows a connection to the api with a self sign cert.
 
 **My_thesis**: According to my research HttpClient after default do not allow connection to self sign certificate so an error should occur.
-### 5. Proxy
+### 4. Proxy
 #### Set up a Proxy
 	Using Burp suite community
 	Make proxy listener on localhost:8080 (127.0.0.1:8080)
