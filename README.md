@@ -39,7 +39,7 @@ Because the app allows a connection to the api with a self sign cert.
 #### Set up a Proxy
 	Using Burp suite community
 	Make proxy listener on localhost:8080 (127.0.0.1:8080)
-![enter image description here](https://www.howtogeek.com/wp-content/uploads/2017/02/img_589cc143a0d61.png?trim=1,1&bg-color=000&pad=1,1)
+![Proxy setup](https://github.com/PrimozRatej/CertificateChain/blob/20db081750aa0b8a1b5f1294ff6f12f9125dd40e/proxy_set_up.PNG)
 
 	1. Set up an Android emulator to use our proxy
 	2. Set up Android Emulattor Settings > Proxy
