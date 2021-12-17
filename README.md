@@ -13,7 +13,7 @@
 Lists: [Mozilla](https://ccadb-public.secure.force.com/mozilla/CACertificatesInFirefoxReport), [MacOS, iOS](https://support.apple.com/en-us/HT202858)
 
 App is using ```SecurityContext.defaultContext```. 
-**Then why were they able to sneak in between the mobile app and the api?**
+**Then why were they able to sneak in between the mobile app and the API?**
 
 ### 2.	If trusted certificates pinning would be used. It would look something like this.
  ```dart
@@ -29,11 +29,11 @@ App is using ```SecurityContext.defaultContext```.
 ### 3.   Application already use ```SecurityContext.defaultContext``` or is it really?
 
 #### 3.1 Testing with a proxy
-- Put a proxy between mobile app and api
-- Proxy will have self signed certificate
+- Put a proxy between mobile app and API
+- Proxy will have self-signed certificate
 	
 **Viris_thesis**: If I run the application via a proxy, I should get login information on the login page.
-Because the app allows a connection to the api with a self sign cert.
+Because the app allows a connection to the API with a self-sign cert.
 
 **My_thesis**: According to my research HttpClient after default do not allow connection to self sign certificate so an error should occur.
 ### 4. Proxy
@@ -51,19 +51,19 @@ Because the app allows a connection to the api with a self sign cert.
 
 	3. Restart the emulator and run the app.
 **The system reports an erro**r: ```CERTIFICATE_VERIFY_FAILED: self signed certificate in certificate chain```.   
-Based on the research, I would refuse viris_thesis but one big but refuse thesis from Viris when it comes to pen testing. I do not dare because I am not a pen tester.
+Based on the research, I would refuse viris_thesis but one big but refuse thesis from Viris when it comes to pen-testing. I do not dare because I am not a pentester.
 			
   
 	4. Why did Viris successfully intercept packets?
-		4.1 Did they uploaded their certificate to the device? 
+		4.1 Did they upload their certificate to the device? 
 		4.2 When was pen testing done (date)? 
-		4.3 Has been HttpClient updated since pentesting (depends on 4.2)?
+		4.3 Has been HttpClient updated since pen-testing (depends on 4.2)?
 		4.4 Has our code been updated (depends on 4.2)? 
-		4.5 In which environment did pen testing take place (qa-logatec?, production?)? 
+		4.5 In which environment did pen-testing take place (qa-logatec?, production?)? 
 		4.6 Is it possible that another version of httpClient is running in the environment in which they performed the test? 
 		4.7 And lastly, Maybe I'm looking at it completely wrong, again they are pen testers and I'm not.
 	
-### 5. How could you still get the data when snooping?🕵️‍♂️...(That I think of) 
+### 5. How did I get the data when snooping?🕵️‍♂️
 #### 5.1 override ```createHttpClient```
 ```dart
 // In main
@@ -80,5 +80,5 @@ class DevHttpOverrides extends HttpOverrides {
   }  
 }
 ```
-I can now read all the traffic from app.
+I can now read all the traffic from the app.
 ![Successfully intercepted traffic](https://github.com/PrimozRatej/CertificateChain/blob/b38bfb40861b4fec88bb7a3a189ce4e9eeebcdd6/captured_traffic_badCertificateCallback.PNG)
