@@ -63,4 +63,21 @@ Based on the research, I would refuse viris_thesis but one big but refuse thesis
 		4.6 Is it possible that another version of httpClient is running in the environment in which they performed the test? 
 		4.7 And lastly, Maybe I'm looking at it completely wrong, again they are pen testers and I'm not.
 	
-### 5. How could you still get the data when snooping? 🕵️‍♂️
+### 5. How could you still get the data when snooping?🕵️‍♂️...(That I think of) 
+#### 5.1 override ```createHttpClient```
+```dart
+// In main
+Future<void> main() async {  
+ HttpOverrides.global = DevHttpOverrides();   
+ () async => runApp();  
+}
+// Allowing all the certificates to be accepted.
+class DevHttpOverrides extends HttpOverrides {  
+  @override  
+  HttpClient createHttpClient(SecurityContext context) {  
+  return super.createHttpClient(context)  
+  ..badCertificateCallback = (cert, host, port) => true;  
+  }  
+}
+```
+
