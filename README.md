@@ -53,7 +53,7 @@ Because the app allows a connection to the api with a self sign cert.
 Based on the research, I would refuse viris_thesis but one big but refuse thesis from Viris when it comes to pen testing. I do not dare because I am not a pen tester.
 			
   
-	4. **Why did Viris successfully intercept packets? **
+	4. Why did Viris successfully intercept packets?
 		4.1 Did they uploaded their certificate to the device? 
 		4.2 When was pen testing done (date)? 
 		4.3 Has been HttpClient updated since pentesting (depends on 4.2)?
