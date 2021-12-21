@@ -1,6 +1,7 @@
 
 
-# Validation of Certificates in flutter
+# SSL Certificates
+## Validation of Certificates in flutter
 
 ### 1. If intrusion is possible then the application does not use ```SecurityContext.defaultContext```.
 ```dart
